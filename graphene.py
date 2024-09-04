@@ -10,7 +10,7 @@ def label(n):
     k = int((n-6*i**2) % (1+2*i))
     return (i,j,k)
 
-def labinv(triple):
+def labinv(tripl):
     (i,j,k) = triple
     return 6*i**2 + j*(1+2*i) + k
 
